@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #fbffa7;
+    
     
 }
 
@@ -21,6 +21,7 @@ header{
 
 }
 .nav-links li {
+    font-family: 'Noto Serif JP', serif;
     display: inline-block;
     padding: 0px 20px;
 }
@@ -32,4 +33,38 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.other-items{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    
+}
+
+.other-items li {
+    font-family: 'Noto Serif JP', serif;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://ableton-production.imgix.net/about/header.jpg?auto=format&dpr=1.25&fit=crop&fm=jpg&h=443&ixjsv=1.1.3&w=798");
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    color: rgb(255, 118, 77);
+    font-family: "Noto Serif JP", serif;
+    font-size: 6rem;
+    font-weight: bolder;
 }
