@@ -85,11 +85,23 @@ header{
 
 .ableton-about p {
     width: 32vw;
+    margin-bottom: 20px;
 }
 
 .collage-1 {
-   display: block;
-   background-color: red;
-  
+   display: flex;
+   justify-content:space-around;
 }
 
+img {
+max-width: 100%;
+}
+
+.collage-1 img {
+    align-self: center;
+}
+
+
+img #bg-lemonade {
+    color: green;
+}
