@@ -88,20 +88,31 @@ header{
     margin-bottom: 20px;
 }
 
+
+
 .collage-1 {
    display: flex;
-   justify-content:space-around;
-}
-
-img {
-max-width: 100%;
+   flex-direction: row;
+   justify-content: space-between;
+    
 }
 
 .collage-1 img {
     align-self: center;
+   
 }
 
 
-img #bg-lemonade {
-    color: green;
+
+.bg-lemonade {
+    border: 5px solid blue;
+    width: 50%;
+    z-index: 0;
+   
 }
+
+
+
+
+
+
