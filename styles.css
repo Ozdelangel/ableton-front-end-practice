@@ -90,6 +90,7 @@ header{
 
 
 .collage-1 {
+    
     position: relative;
     padding-top: 8.3vw;
     padding-bottom: 8.3vw;
@@ -108,14 +109,12 @@ header{
 
 .collage-media-1{
     display: flex;
-    /* vertical-align: middle; */
-    justify-content: space-between;
+    gap: 50px;
     position: relative;
-    
-    /* z-index: 1; */
-    width: 41.66667vw;
+    z-index: 1;
+    max-width: 15vw;
     height: 41.66667vw;
-    /* margin-left: 8.33333vw; */
+    /* margin-left: 5.33333vw; */
 }
 
 .collage-media-1 img{
