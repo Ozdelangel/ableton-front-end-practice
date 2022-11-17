@@ -121,6 +121,26 @@ header{
 align-self: center;
 
 }
+.ableton-about-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.ableton-about-2 h1{
+    width: 32vw;
+}
+
+
+.ableton-about-2 p {
+    width: 32vw;
+    margin-bottom: 20px;
+    
+    
+}
 /* 
 .collage-1 {
    display: flex;
