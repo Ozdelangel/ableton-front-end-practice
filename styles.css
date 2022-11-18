@@ -141,6 +141,12 @@ align-self: center;
     
     
 }
+
+.media-section {
+display: flex;
+justify-content: center;
+
+}
 /* 
 .collage-1 {
    display: flex;
