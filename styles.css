@@ -147,27 +147,29 @@ display: flex;
 justify-content: center;
 
 }
-/* 
-.collage-1 {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+
+
+.second-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   
+   
+}
+
+.second-p h1 {
+    width: 40vw;
+    font-size: 20px;
+
+}
+
+.second-p p{
+    width: 40vw;
+    margin-bottom: 20px;
     
 }
-
-.collage-1 img {
-    align-self: center;
-   
-}
-
-
-
-.bg-lemonade {
-    border: 5px solid blue;
-    width: 50%;
-    z-index: 0;
-   
-} */
 
 
 
