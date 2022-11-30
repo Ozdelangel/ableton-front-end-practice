@@ -177,16 +177,27 @@ justify-content: center;
     padding-bottom: 8.3vw;
 }
 
-.color {
+.bg-green {
     position: absolute;
     top: 0;
     z-index: 0;
     width: 58.3vw;
     height: 58.3vw;
-    left: 0;
     background-color: #b6ffc0;
 }
 
+.collage-2-media {
+    display: flex;
+    gap: 50px;
+    position: relative;
+    z-index: 1;
+    max-width: 15vw;
+    height: 41.66667vw;
+}
+
+.collage-2-media img {
+align-self: center;
+}
 
 
 
