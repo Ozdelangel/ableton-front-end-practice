@@ -187,16 +187,21 @@ justify-content: center;
 }
 
 .collage-2-media {
-    display: flex;
-    gap: 50px;
+    display: inline-block;
+    left: 100px;
     position: relative;
     z-index: 1;
-    max-width: 15vw;
+    max-width: 50vw;
     height: 41.66667vw;
 }
 
 .collage-2-media img {
-align-self: center;
+    align-self: center;
+}
+
+.collage-2 img {
+    position: relative;
+    z-index: 2;
 }
 
 
