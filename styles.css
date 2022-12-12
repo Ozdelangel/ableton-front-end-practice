@@ -114,7 +114,7 @@ header{
     z-index: 1;
     max-width: 15vw;
     height: 41.66667vw;
-    /* margin-left: 5.33333vw; */
+    margin-left: 5.33333vw;
 }
 
 .collage-media-1 img{
@@ -172,6 +172,8 @@ justify-content: center;
 }
 
 .collage-2 {
+
+    max-width: 15vw;
     position: relative;
     padding-top: 8.3vw;
     padding-bottom: 8.3vw;
@@ -187,22 +189,34 @@ justify-content: center;
 }
 
 .collage-2-media {
-    display: inline-block;
-    left: 100px;
+    display: grid;
+    grid-template-columns: 35vw 40vw;
+    grid-auto-rows: minmax(40vw, auto);
+    column-gap: 1px;
     position: relative;
     z-index: 1;
-    max-width: 50vw;
-    height: 41.66667vw;
+ 
+}   
+
+.one {
+   
+
 }
 
+.two{
+  
+
+}
+.last-img{
+    grid-column-start: 2;
+    grid-row-end: 1;
+}
 .collage-2-media img {
     align-self: center;
 }
 
-.collage-2 img {
-    position: relative;
-    z-index: 2;
-}
+
+
 
 
 
