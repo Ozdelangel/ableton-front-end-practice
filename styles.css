@@ -172,7 +172,7 @@ justify-content: center;
 }
 
 .collage-2 {
-
+    
     max-width: 15vw;
     position: relative;
     padding-top: 8.3vw;
@@ -188,32 +188,44 @@ justify-content: center;
     background-color: #b6ffc0;
 }
 
+
 .collage-2-media {
-    display: grid;
-    grid-template-columns: 35vw 40vw;
-    grid-auto-rows: minmax(40vw, auto);
-    column-gap: 1px;
     position: relative;
+    display: inline-block;
+    vertical-align: middle;
     z-index: 1;
- 
-}   
-
-.one {
-   
-
-}
-
-.two{
+     margin-bottom: 8.3vw;
   
 
+  
 }
+
+.one{
+    width: 33.3vw;
+    height: 25vw;
+}
+.two {
+    margin-top: 8.3vw;
+    width: 33.3vw;
+    height: 25vw;
+}
+
 .last-img{
-    grid-column-start: 2;
-    grid-row-end: 1;
+    display: flex;
+    flex-direction: row;
+    width: 41.6vw;
+    height: 41.6vw;
+    margin-left: 8.3vw;
+    
+
+  
 }
+
 .collage-2-media img {
     align-self: center;
 }
+
+
 
 
 
