@@ -276,7 +276,7 @@ justify-content: center;
     position: relative;
     top: 0;
     z-index: 0;
-    width: 66.6vw;
+    width: 70.6vw;
     height: 75vw;
     background-color: #D5B3FF;
     flex-shrink: 0;
@@ -287,6 +287,22 @@ justify-content: center;
     display: flex;
     position: relative;
     justify-content: center;
+}
+
+.learning-1 {
+    position: relative;
+    z-index: 1;
+    top: 25vw;
+    left: 31vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.learning-2 {
+    position: relative;
+    z-index: 1;
+    top: 15vw;
+    right: 32vw;
 }
 
 
