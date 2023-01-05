@@ -305,4 +305,24 @@ justify-content: center;
     right: 32vw;
 }
 
+.last-blurb {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-blurb h1 {
+    width: 40vw;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.last-blurb p {
+    width: 40vw;
+    font-size: 20px; 
+    margin-bottom: 20px;
+}
+
 
