@@ -327,11 +327,21 @@ justify-content: center;
 
  #production-collage {
     display: grid;
-    grid-template-columns: 2fr 1fr;
- 
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    
+    
  }
+
+.production-img{
+ position: relative;
+ display: flex;
+ justify-content: flex-end;
+
+}
 .bg-periwinkle {
     background-color: #d5b3ff;
+    max-width: 42.6vw;
 
 } 
 
