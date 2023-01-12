@@ -365,5 +365,14 @@ justify-content: center;
     /* grid-template-columns: min-content 1fr min-content; */
 }
 
-.
+.multi-level-footer li{
+    list-style-type: none;
+}
+
+.register{
+    grid-column: 1/2;
+    text-decoration: none;
+}
+
+
 
